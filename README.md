@@ -2,6 +2,12 @@
 
 A polished, ChatGPT-style Gemini chatbot with multimodal context (text, documents, and images), clean UX, and session memory. Built as a portfolio-ready demo with production-minded structure and error handling.
 
+## 🌐 Live Demo
+
+- 🔗 **Frontend:** https://astra-chat-web.onrender.com/  
+- ⚙️ **Backend API:** https://astra-chat-api.onrender.com/  
+
+
 ## Features
 - Multimodal chat: text, PDF/TXT uploads, and PNG/JPG images
 - Context-aware routing between document and image prompts
