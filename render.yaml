@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: astra-chat-api
+    env: node
+    region: oregon
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm run start
+    healthCheckPath: /health
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-flash-latest
+      - key: GEMINI_FALLBACK_MODEL
+        value: gemini-pro-latest
+      - key: DOCUMENT_TEXT_LIMIT
+        value: "12000"
+      - key: CORS_ORIGINS
+        sync: false
+
+  - type: web
+    name: astra-chat-web
+    env: static
+    region: oregon
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    plan: free
+    envVars:
+      - key: VITE_API_URL
+        sync: false
