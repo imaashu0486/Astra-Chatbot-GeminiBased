@@ -1,0 +1,16 @@
+Artificial Intelligence Overview
+
+1. Artificial Intelligence (AI) is a field of computer science.
+2. It focuses on creating systems that can perform tasks requiring human intelligence.
+3. Types of AI include:
+   - Narrow AI
+   - General AI
+   - Super AI
+4. AI is used in applications like:
+   - Chatbots
+   - Self-driving cars
+   - Recommendation systems
+5. The performance of AI depends heavily on data quality and algorithms.
+
+Conclusion:
+AI is transforming industries by automating tasks and improving decision-making.
