@@ -1,6 +1,6 @@
 # Astra Chat (Gemini Multimodal Chatbot)
 
-A polished, ChatGPT-style Gemini chatbot with multimodal context (text, documents, and images), clean UX, and session memory. Built as a portfolio-ready demo with production-minded structure and error handling.
+A polished, Gemini-style Gemini chatbot with multimodal context (text, documents, and images), clean UX, and session memory. Built as a portfolio-ready demo with production-minded structure and error handling.
 
 ## 🌐 Live Demo
 
